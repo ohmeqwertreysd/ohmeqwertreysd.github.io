@@ -117,7 +117,7 @@ header .header-container{
     display: inline-block;
     vertical-align: middle;
     font-size: 30px;
-    opacity: 1; /*0*/
+    opacity: 0; /*0*/
 }
 
 .lvls a:hover, .lvls a:focus, .lvls a:active{
@@ -137,7 +137,7 @@ header .header-container{
     font-size: 20px;
 }
 
-/* Underline Reveal
+/* Underline Reveal*/
 .left-menu a{
     display: inline-block;
   vertical-align: middle;
@@ -155,7 +155,7 @@ header .header-container{
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgb(196, 60, 200);
   height: 4px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
@@ -170,17 +170,5 @@ header .header-container{
 .left-menu a:hover:before, .left-menu:focus:before, .left-menu:active:before{
     -webkit-transform: translateY(0);
   transform: translateY(0);
-}*/
-
-.one-menu > a{
-    display: none;
 }
 
-
-.one-menu:active > a,
-.one-menu:focus,
-.one-menu:hover,
-.one-menu:focus > a,
-.one-menu:hover > a{
-    display: block;
-}
